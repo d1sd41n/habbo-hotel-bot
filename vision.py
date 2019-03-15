@@ -7,7 +7,7 @@ import time
 def convert_rgb_to_bgr(img):
         return img[:, :, ::-1]
 
-monitor = {'top': 0, 'left': 0, 'width': 1920, 'height': 1080}
+monitor = {'top': 0, 'left': 0, 'width': 1920, 'height': 1080} # write here the resolution of you screen
 screen = mss()
 frame = None
 
